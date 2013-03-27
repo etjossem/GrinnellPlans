@@ -296,13 +296,17 @@ p.sub:first-letter {
 	/* Make the font small and indented */
 	font-size: 0.8em;
 	/* 17.5 / 0.8 for the proportions */
-	margin-left: 21.875em;
+
 	margin-right: 0em;
 	overflow: auto;
 	/* Always put our footer at the bottom of the page */
-	position: absolute;
-	bottom: 0em;
+	position: relative;
 	height: 14em;
+}
+
+#footer-content {
+	position: absolute;
+	bottom: 1em;
 }
 
 /* A little space between footer elements */
