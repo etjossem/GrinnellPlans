@@ -166,6 +166,8 @@ ul {
 	margin-top: 2em;
 	/* Fill the space that is available to us */
 	min-width: 40em;
+	overflow: auto;
+	padding-bottom: 150px;
 }
 
 /* Space above autoread */
@@ -296,17 +298,20 @@ p.sub:first-letter {
 	/* Make the font small and indented */
 	font-size: 0.8em;
 	/* 17.5 / 0.8 for the proportions */
-
+	margin-top: -150px;
+	height: 150px;
 	margin-right: 0em;
 	overflow: auto;
-	/* Always put our footer at the bottom of the page */
 	position: relative;
-	height: 14em;
+	/* Always put our footer at the bottom of the page */
+	clear: both;
 }
 
 #footer-content {
+	padding-bottom: 20px;
 	position: absolute;
-	bottom: 1em;
+	bottom: 0px;
+	left: 0px;
 }
 
 /* A little space between footer elements */
